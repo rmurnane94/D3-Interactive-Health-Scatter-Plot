@@ -151,8 +151,8 @@ function updateToolTip(chosenXAxis, chosenYAxis, circlesGroup) {
 }
 
   //GETS DATA AND DOES ALL THE STUFF// 
-d3.csv('assets/data/data.csv').then(csvData => {
-
+d3.csv('./assets/data/data.csv').then(csvData => {
+ 
  // Step 1: Parse Data/Cast as numbers
     // ==============================
     csvData.forEach(function(data) {
