@@ -223,7 +223,7 @@ d3.csv('./assets/data/data.csv').then(csvData => {
     .attr("value", "poverty") // value to grab for event listener
     .classed("active", true)
     // .classed("aText", true)
-    .text("Poverty %");
+    .text("Poverty (%)");
 
     var ageLabel = xlabelsGroup.append("text")
     .attr("x", 0)
@@ -254,7 +254,7 @@ d3.csv('./assets/data/data.csv').then(csvData => {
     .attr("y", 0 - 40)
     .attr("value", "healthcare") // value to grab for event listener
     .classed("active", true)
-    .text("% Lacking Healthcare");
+    .text("Lacking Healthcare (%)");
 
     var obeseLabel = ylabelsGroup.append("text")
     .attr("transform", "rotate(-90)")
@@ -262,7 +262,7 @@ d3.csv('./assets/data/data.csv').then(csvData => {
       .attr("y", 0 -60)
       .attr("value", "obesity") // value to grab for event listener
       .classed("inactive", true)
-      .text("% Obesity");
+      .text("Obesity (%)");
 
     var smokesLabel = ylabelsGroup.append("text")
     .attr("transform", "rotate(-90)")
@@ -270,7 +270,7 @@ d3.csv('./assets/data/data.csv').then(csvData => {
     .attr("y", 0 - 80)
     .attr("value", "smokes") // value to grab for event listener
     .classed("inactive", true)
-    .text("% Smokes");
+    .text("Smokes (%)");
 
 
 
