@@ -254,7 +254,6 @@ d3.csv('./assets/data/data.csv').then(csvData => {
     .attr("y", 0 - 40)
     .attr("value", "healthcare") // value to grab for event listener
     .classed("active", true)
-    .text("")
     .text("Lacking Healthcare (%)");
 
     var obeseLabel = ylabelsGroup.append("text")
