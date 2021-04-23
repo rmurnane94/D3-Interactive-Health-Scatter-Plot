@@ -1,5 +1,7 @@
 # d3-challenge
 
+[HERE](https://rmurnane94.github.io/d3-challenge/)
+
 
 ## Background
 
@@ -9,13 +11,11 @@ The data set included with the assignment is based on 2014 ACS 1-year estimates 
 
 **The visualization is live [HERE](https://rmurnane94.github.io/d3-challenge/).**
 
-### Visualization
 ![1](https://github.com/rmurnane94/d3-challenge/blob/main/pics/screen2.png)
-![4-scatter](Images/4-scatter.jpg)
 
-You need to create a scatter plot between two of the data variables such as `Healthcare vs. Poverty` or `Smokers vs. Age`.
+This interactive web visualization features scatter plots demonstrating the relationship between two data variables such as `Healthcare vs. Poverty` or `Smokers vs. Age`.
 
-Using the D3 techniques we taught you in class, create a scatter plot that represents each state with circle elements. You'll code this graphic in the `app.js` file of your homework directory—make sure you pull in the data from `data.csv` by using the `d3.csv` function. Try binding all of the CSV data to your circles. This will let you easily determine their x or y values when you click the labels.
+Scatter plots are made using D3 to plot each state with a circle element. The `app.js` file pulls in the data from `data.csv` by using the `d3.csv` function. Using D3, all of the CSV data is bound to the plotted circles. This will let you easily determine their x or y values when you click the labels.
 
 
 includes multiple demographics and risk factors labels in the scatter plot and click events which data to display.  the transitions of the circles' locations as well as the range of your axes are Animated.
