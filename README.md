@@ -4,23 +4,9 @@
 
 ## Background
 
-Welcome to the newsroom! You've just accepted a data visualization position for a major metro paper. You're tasked with analyzing the current trends shaping people's lives, as well as creating charts, graphs, and interactive elements to help readers understand your findings.
+about the health risks facing particular demographics. She's counting on you to sniff out the first story idea by sifting through information from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System.
 
-The editor wants to run a series of feature stories about the health risks facing particular demographics. She's counting on you to sniff out the first story idea by sifting through information from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System.
-
-The data set included with the assignment is based on 2014 ACS 1-year estimates from the [US Census Bureau](https://data.census.gov/cedsci/), but you are free to investigate a different data set. The current data set includes data on rates of income, obesity, poverty, etc. by state. MOE stands for "margin of error."
-
-### Before You Begin
-
-1. Create a new repository for this project called `D3-Challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for the D3 challenge. Use the folder name to correspond to the challenge: **D3_data_journalism**.
-
-4. This homework utilizes both **html** and **Javascript** so be sure to add all the necessary files. These will be the main files to run for analysis.
-
-5. Push the above changes to GitHub or GitLab.
+The data set included with the assignment is based on 2014 ACS 1-year estimates from the [US Census Bureau](https://data.census.gov/cedsci/), includes data on rates of income, obesity, poverty, etc. by state. MOE stands for "margin of error."
 
 ## Your Task
 
@@ -38,7 +24,8 @@ Using the D3 techniques we taught you in class, create a scatter plot that repre
 
 * Note: You'll need to use `python -m http.server` to run the visualization. This will host the page at `localhost:8000` in your web browser.
 
-
+![1](https://github.com/rmurnane94/d3-challenge/blob/main/pics/screen2.png)
+![2](https://github.com/rmurnane94/d3-challenge/blob/main/pics/screen3.png)
 
 ### Bonus: Impress the Boss (Optional Assignment)
 
