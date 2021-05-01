@@ -2,7 +2,7 @@
 
 ## Background
 
-This interactive web visualization features scatter plots exploring the visible relationships between various health risks facing particular demographics. Information is from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System. The data set is based on 2014 ACS 1-year estimates from the [US Census Bureau](https://data.census.gov/cedsci/), and includes data on rates of income, obesity, poverty, etc. by state.
+This interactive web visualization features scatter plots built using D3.js exploring the visible relationships between various health risks facing particular demographics. Information is from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System. The data set is based on 2014 ACS 1-year estimates from the [US Census Bureau](https://data.census.gov/cedsci/), and includes data on rates of income, obesity, poverty, etc. by state.
 
 **The visualization is live [HERE](https://rmurnane94.github.io/d3-challenge/).**
 
